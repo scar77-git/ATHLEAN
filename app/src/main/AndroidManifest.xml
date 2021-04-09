@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo1"
+        android:label="ATHLEAN"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+        android:supportsRtl="true">
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".login1"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".registration"></activity>
+        <activity android:name=".diet"></activity>
+        <activity android:name=".workout"></activity>
+        <activity android:name=".splash"
+            android:theme="@style/SplashTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
