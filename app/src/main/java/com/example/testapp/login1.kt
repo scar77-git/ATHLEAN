@@ -28,7 +28,7 @@ class login1 : AppCompatActivity() {
                 Toast.makeText(applicationContext,
                     "successful",
                     Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, SecondActivity::class.java)
+                val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             }
         }
@@ -36,6 +36,7 @@ class login1 : AppCompatActivity() {
         button2.setOnClickListener {
             val intent = Intent(this, registration::class.java)
             startActivity(intent)
+            finish()
         }
         //toolbar = findViewById(R.id.toolbar_login)
         //setSupportActionBar(toolbar)

@@ -1,70 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgf">
-    android:padding="4dp">
-    <RelativeLayout
-        android:id="@+id/header1"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:background="@color/black"
-        android:gravity="center"
-        android:drawableRight="@drawable/password">
-    <TextView
-        android:id="@+id/header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-       android:padding="5dp"
-        android:layout_centerInParent="false"
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="90dp"
+    android:background="#000"
+    android:backgroundTint="#fff"
+    tools:context=".MainActivity">
 
-        android:text="ATHLEAN"
-        android:textColor="@color/black"
-        android:textSize="40sp"
-        android:textStyle="bold" />
-        <Button
-            android:id="@+id/dropdown_menu"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:background="@color/white"
-            android:layout_toRightOf="@+id/header"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="60dp"
-            android:layout_centerHorizontal="true"
-            android:drawableTop="@drawable/menu" />
-    </RelativeLayout>
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="336dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="52dp"
+        android:clickable="true"
+        android:hapticFeedbackEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diet" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="false"
-        android:layout_below="@+id/header1"
-        android:background="#00000000"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="83dp"
-        android:layout_centerHorizontal="false"
-        android:text="LOGIN"
-        android:textColor="@color/white"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        android:drawableTop="@drawable/login"/>
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00000000"
-        android:layout_marginTop="500dp"
-        android:layout_marginLeft="5dp"
-        android:layout_centerHorizontal="true"
-        android:text="GO"
-        android:textColor="@color/white"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        android:drawableTop="@drawable/go" />
-</RelativeLayout>
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="330dp"
+        android:layout_height="222dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="59dp"
+        android:hapticFeedbackEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:srcCompat="@drawable/gym"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="41dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="335dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="59dp"
+        android:accessibilityLiveRegion="none"
+        android:background="#000"
+        android:backgroundTint="#fff"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:foregroundTint="#000"
+        android:gravity="center_horizontal"
+        android:inputType="none"
+        android:text="A T H L E A N"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHighlight="#ffff"
+        android:textColorHint="#fff"
+        android:textColorLink="#ffff"
+        android:textFontWeight="750"
+        android:textSize="32sp"
+        android:translationY="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="95dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="59dp"
+        android:backgroundTint="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile"
+        android:layout_marginLeft="1dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="335dp"
+        android:layout_height="4dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="37dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="0.363"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="41dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="399dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="44dp"
+        android:background="?android:attr/listDivider"
+        android:foreground="#000"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
