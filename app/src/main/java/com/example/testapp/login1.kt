@@ -1,6 +1,7 @@
 package com.example.testapp
 import android.content.Intent
 import android.graphics.PorterDuff
+import android.os.Build
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -9,13 +10,25 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.drawable.DrawableCompat
 import kotlinx.android.synthetic.main.login.*
+
+
 class login1 : AppCompatActivity() {
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
+        val pref = getSharedPreferences("ActivityPREF", MODE_PRIVATE)
+        val edt = pref.edit()
+        edt.putBoolean("activity_executed", true)
+        edt.commit()
+        window.statusBarColor = 0x000000
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+        supportActionBar?.hide()
+        actionBar?.hide();
         val num1 = findViewById<EditText>(R.id.email)
         val num2 = findViewById<EditText>(R.id.password)
         val imgbtn = findViewById<Button>(R.id.login_button)
@@ -26,7 +39,7 @@ class login1 : AppCompatActivity() {
             }
             else {
                 Toast.makeText(applicationContext,
-                    "successful",
+                    "WELCOME",
                     Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
@@ -36,7 +49,7 @@ class login1 : AppCompatActivity() {
         button2.setOnClickListener {
             val intent = Intent(this, registration::class.java)
             startActivity(intent)
-            finish()
+
         }
         //toolbar = findViewById(R.id.toolbar_login)
         //setSupportActionBar(toolbar)
