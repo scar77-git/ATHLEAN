@@ -43,12 +43,14 @@ class login1 : AppCompatActivity() {
                     Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
+                finish()
             }
         }
         val button2: Button = findViewById(R.id.forgot_password)
         button2.setOnClickListener {
             val intent = Intent(this, registration::class.java)
             startActivity(intent)
+
 
         }
         //toolbar = findViewById(R.id.toolbar_login)
@@ -74,7 +76,7 @@ class login1 : AppCompatActivity() {
 
             override fun afterTextChanged(s: Editable)
             {
-                if (s.length != 0)
+                if (s.length > 5)
                 {
                     var drawable = resources.getDrawable(R.drawable.email) //Your drawable image
                     drawable = DrawableCompat.wrap(drawable!!)
@@ -114,7 +116,7 @@ class login1 : AppCompatActivity() {
 
             override fun afterTextChanged(s: Editable)
             {
-                if (s.length != 0)
+                if (s.length >= 8)
                 {
                     var drawable = resources.getDrawable(R.drawable.password) //Your drawable image
                     drawable = DrawableCompat.wrap(drawable!!)

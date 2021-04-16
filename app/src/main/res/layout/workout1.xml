@@ -23,8 +23,8 @@
             android:layout_marginTop="50dp"
             android:gravity="center_horizontal"
             android:text="CHOOSE YOUR WORKOUT"
-            android:textColor="@color/white"
-            android:textSize="30dp"
+            android:textColor="#3bda80"
+            android:textSize="32dp"
             android:textStyle="bold" />
     </RelativeLayout>
     <ScrollView
@@ -36,6 +36,15 @@
             android:layout_width="400dp"
             android:orientation="vertical"
             android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider"
+                android:foreground="#3bda80"
+                android:translationY="25dp" />
+
             <Button
                 android:id="@+id/bulking"
                 android:layout_width="350dp"
@@ -50,20 +59,40 @@
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:background="@drawable/abs"/>
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="350dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:foreground="#3bda80"
+                android:translationX="25dp"
+                android:translationY="25dp" />
+
             <Button
                 android:id="@+id/weight_loss"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/bulking"
                 android:layout_centerInParent="false"
-                android:layout_marginTop="50dp"
-                android:layout_marginLeft="25dp"
                 android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/chest"
                 android:text="CHEST WORKOUT"
                 android:textColor="@color/white"
                 android:textSize="12sp"
-                android:textStyle="bold"
-                android:background="@drawable/chest"/>
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="350dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:foreground="#3bda80"
+                android:translationX="25dp"
+                android:translationY="25dp" />
+
             <Button
                 android:id="@+id/athlete"
                 android:layout_width="350dp"
@@ -78,6 +107,16 @@
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:background="@drawable/shoulder"/>
+
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="350dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:foreground="#3bda80"
+                android:translationX="25dp"
+                android:translationY="25dp" />
+
             <Button
                 android:id="@+id/bb"
                 android:layout_width="350dp"
@@ -92,6 +131,16 @@
                 android:textSize="12sp"
                 android:textStyle="bold"
                 android:background="@drawable/arms"/>
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="350dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:foreground="#3bda80"
+                android:translationX="25dp"
+                android:translationY="25dp" />
+
             <Button
                 android:id="@+id/leg"
                 android:layout_width="350dp"
@@ -104,8 +153,18 @@
                 android:text="LEG WORKOUT"
                 android:textColor="@color/white"
                 android:textSize="12sp"
-                android:textStyle="bold"
-                android:background="@drawable/leg"/>
+                android:background="@drawable/leg"
+                android:textStyle="bold"/>
+
+            <View
+                android:id="@+id/divider13"
+                android:layout_width="350dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:foreground="#3bda80"
+                android:translationX="25dp"
+                android:translationY="25dp" />
+
             <Button
                 android:id="@+id/fit"
                 android:layout_width="350dp"
