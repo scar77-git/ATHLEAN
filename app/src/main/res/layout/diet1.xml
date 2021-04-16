@@ -57,11 +57,11 @@
                 android:layout_marginTop="50dp"
                 android:layout_marginLeft="25dp"
                 android:layout_centerHorizontal="true"
-                android:text="WEIGHT GAIN DIET"
+                android:text="BULKING DIET"
                 android:textColor="@color/white"
-                android:textSize="12sp"
+                android:textSize="15dp"
                 android:textStyle="bold"
-                android:background="@drawable/bulking"/>
+                android:background="@drawable/wl2"/>
 
             <View
                 android:id="@+id/divider4"
@@ -83,7 +83,7 @@
                 android:layout_centerHorizontal="true"
                 android:text="WEIGHT LOSS DIET"
                 android:textColor="@color/white"
-                android:textSize="12sp"
+                android:textSize="15dp"
                 android:textStyle="bold"
                 android:background="@drawable/weight1"/>
 
@@ -107,7 +107,7 @@
                 android:layout_centerHorizontal="true"
                 android:text="ATHLETE DIET"
                 android:textColor="@color/white"
-                android:textSize="12sp"
+                android:textSize="15dp"
                 android:textStyle="bold"
                 android:background="@drawable/athlete"/>
 
@@ -131,9 +131,9 @@
                 android:layout_centerHorizontal="true"
                 android:text="BODYBUILDING DIET"
                 android:textColor="@color/white"
-                android:textSize="12sp"
+                android:textSize="15dp"
                 android:textStyle="bold"
-                android:background="@drawable/bodybuild"/>
+                android:background="@drawable/bb1"/>
 
             <View
                 android:id="@+id/divider3"
