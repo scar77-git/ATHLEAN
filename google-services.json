@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904264193109",
+    "project_id": "athlean-ef400",
+    "storage_bucket": "athlean-ef400.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904264193109:android:76feb1616cee90ae4a70dc",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904264193109-al0rm116562iosi72cvb7nlrlidlqsll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwNVwLgYi3ttmMH4i-12BTlUNZGOdIcCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904264193109-al0rm116562iosi72cvb7nlrlidlqsll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
