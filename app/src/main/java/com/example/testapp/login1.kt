@@ -29,6 +29,7 @@ class login1 : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
         actionBar?.hide();
+
         val num1 = findViewById<EditText>(R.id.email)
         val num2 = findViewById<EditText>(R.id.password)
         val imgbtn = findViewById<Button>(R.id.login_button)
