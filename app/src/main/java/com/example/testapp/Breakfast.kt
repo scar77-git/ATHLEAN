@@ -16,7 +16,7 @@ class Breakfast : AppCompatActivity() {
         supportActionBar?.hide()
         actionBar?.hide();
 
-        /*Mighty Porridge
+        /*Mighty Porridge aka chia porridge
         Nuts&Fruit PowerBowl
         WholeGrain Pancakes
         Quinoa Porridge
