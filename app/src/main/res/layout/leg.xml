@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="0dp"
+    android:background="@drawable/bgx"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="#000"
+        android:gravity="center">
+
+        <TextView
+
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="115dp"
+            android:gravity="center_horizontal"
+            android:text="LEG WORKOUTS"
+            android:textColor="#3bda80"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="-9dp">
+
+        <View
+            android:id="@+id/divider13"
+            android:layout_width="350dp"
+            android:layout_height="3dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="#3bda80"
+            android:translationX="25dp"
+            android:translationY="25dp" />
+
+        <Button
+            android:id="@+id/sq"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider13"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/ellipse"
+            android:text="SQUATS"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/lun"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sq"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ellipse"
+            android:text="LUNGE"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/slcr"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lun"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ellipse"
+            android:text="SINGLE LEG CALF RAISES"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

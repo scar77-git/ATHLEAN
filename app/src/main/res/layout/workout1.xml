@@ -80,7 +80,7 @@
 
 
             <Button
-                android:id="@+id/bulking"
+                android:id="@+id/abs"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/title"
@@ -104,10 +104,10 @@
                 android:translationY="25dp" />
 
             <Button
-                android:id="@+id/weight_loss"
+                android:id="@+id/chest"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/bulking"
+                android:layout_below="@+id/abs"
                 android:layout_centerInParent="false"
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="25dp"
@@ -128,10 +128,10 @@
                 android:translationY="25dp" />
 
             <Button
-                android:id="@+id/athlete"
+                android:id="@+id/shld"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/weight_loss"
+                android:layout_below="@+id/chest"
                 android:layout_centerInParent="false"
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="25dp"
@@ -152,10 +152,10 @@
                 android:translationY="25dp" />
 
             <Button
-                android:id="@+id/bb"
+                android:id="@+id/ar"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/athlete"
+                android:layout_below="@+id/shld"
                 android:layout_centerInParent="false"
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="25dp"
@@ -179,7 +179,7 @@
                 android:id="@+id/leg"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/athlete"
+                android:layout_below="@+id/arm"
                 android:layout_centerInParent="false"
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="25dp"
@@ -200,10 +200,10 @@
                 android:translationY="25dp" />
 
             <Button
-                android:id="@+id/fit"
+                android:id="@+id/ft"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/athlete"
+                android:layout_below="@+id/leg"
                 android:layout_centerInParent="false"
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="25dp"
