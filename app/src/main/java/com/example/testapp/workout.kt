@@ -1,14 +1,18 @@
 package com.example.testapp
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
+import android.widget.ImageView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.workout1.*
 
 class workout : AppCompatActivity() {
+    @SuppressLint("WrongViewCast")
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,6 +21,12 @@ class workout : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
         actionBar?.hide();
+        val hbutton = findViewById<ImageView>(R.id.imageView3)
+        hbutton.setOnClickListener(){
+            val intent  = Intent(this, MainActivity::class.java)
+            startActivity(intent);
+        finish();
+        }
         val button2: Button = findViewById(R.id.chest)
         button2.setOnClickListener {
             val intent = Intent(this, chest1::class.java)

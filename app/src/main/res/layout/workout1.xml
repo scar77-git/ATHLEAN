@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="9dp"
-            android:layout_marginTop="115dp"
+            android:layout_marginTop="125dp"
             android:gravity="center_horizontal"
             android:text="CHOOSE YOUR WORKOUT"
             android:textColor="#3bda80"
@@ -35,29 +35,32 @@
             android:background="?android:attr/listDivider"
             android:foreground="#3bda80"
             android:translationY="100dp" />
+
         <ImageView
             android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="0dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="6dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/logo_home" />
+            android:clickable="true"
+            app:srcCompat="@drawable/logo_splash" />
 
         <ImageView
             android:id="@+id/imageButton4"
             android:layout_width="52dp"
-            android:layout_height="85dp"
+            android:layout_height="52dp"
             android:layout_marginTop="-10dp"
             android:layout_marginBottom="59dp"
             android:alpha="10"
             android:background="#000"
             android:backgroundTint="#000"
+            android:scaleType="fitXY"
             android:translationX="340dp"
-            android:translationY="6dp"
+            android:translationY="35dp"
             android:visibility="visible"
             app:layout_constraintBottom_toTopOf="@+id/imageButton3"
             app:layout_constraintEnd_toEndOf="parent"

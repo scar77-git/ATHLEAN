@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.ImageView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 class diet : AppCompatActivity() {
@@ -19,6 +20,13 @@ class diet : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
         actionBar?.hide();
+
+        val hbutton = findViewById<ImageView>(R.id.imageView3)
+        hbutton.setOnClickListener(){
+            val intent  = Intent(this, MainActivity::class.java)
+            startActivity(intent);
+            finish();
+        }
         val button1 = findViewById<Button>(R.id.bulking)
         val button2 = findViewById<Button>(R.id.weight_loss)
         val button3 = findViewById<Button>(R.id.athlete)

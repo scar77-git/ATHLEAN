@@ -1,9 +1,155 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Snacks">
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".Snacks" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:editable="false"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text="SNACKS"
+        android:textColor="#2adb80"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:translationY="40dp" />
+
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="?android:attr/listDivider"
+        android:foreground="#2bda80"
+        android:translationY="70dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:translationY="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/imageButton5"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/eggplant_chips"
+                android:gravity="center|top"
+                android:scaleType="fitStart"
+                android:text="EGGPLANT CHIPS"
+                android:textColor="#777"
+                android:textIsSelectable="false"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/imageButton6"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/fauxtato_chips"
+                android:gravity="center|top"
+                android:scaleType="fitStart"
+                android:text="FAUXTATO CHIPS"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:translationY="30dp" />
+
+            <Button
+                android:id="@+id/imageButton8"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/fruit_bowl"
+                android:scaleType="fitStart"
+                android:translationY="60dp"
+                android:text="FRUIT BOWL"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:gravity="center|top"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/imageButton9"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/protein_shake"
+                android:scaleType="fitStart"
+                android:translationY="100dp"
+                android:text="PROTEIN SHAKE"
+                android:textColor="#777"
+                android:gravity="center|top"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/imageButton10"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/green_fruit"
+                android:scaleType="fitStart"
+                android:translationY="140dp"
+                android:text="GREEK YOGURT FRUIT BOWL"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:gravity="center|top"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/imageButton11"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/kachori"
+                android:scaleType="fitStart"
+                android:translationY="170dp"
+                android:text="KACHORI"
+                android:textColor="#777"
+                android:gravity="center|top"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/imageButton12"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/sweet_potato"
+                android:gravity="center|top"
+                android:scaleType="fitStart"
+                android:text="SWEET POTATO CHIPS"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:translationY="200dp" />
+
+            <Button
+                android:id="@+id/imageButton13"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/zucchini_sushi"
+                android:scaleType="fitStart"
+                android:translationY="230dp"
+                android:text="ZUCCHINI SUSHI"
+                android:gravity="center|top"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"/>
+            <View
+                android:id="@+id/divider17"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

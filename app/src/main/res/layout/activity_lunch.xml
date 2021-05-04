@@ -1,12 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000"
-    tools:context=".Lunch">
+    android:orientation="vertical"
+    tools:context=".Lunch" >
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:editable="false"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text="LUNCH"
+        android:textColor="#2adb80"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:translationY="40dp" />
 
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="?android:attr/listDivider"
+        android:foreground="#2bda80"
+        android:translationY="70dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:translationY="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/imageButton5"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/chicken_breast_pan"
+                android:gravity="center|top"
+                android:scaleType="fitStart"
+                android:text="PAN CHICKEN BREASTS"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/imageButton6"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/tuna_sandwich"
+                android:gravity="center|top"
+                android:scaleType="fitStart"
+                android:text="TUNA SANDWICH"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:translationY="30dp" />
+
+            <Button
+                android:id="@+id/imageButton8"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/butter_chicken_masala"
+                android:scaleType="fitStart"
+                android:translationY="60dp"
+                android:text="BUTTER CHICKEN MASALA"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:gravity="center|top"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/imageButton9"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/paneer_pulao"
+                android:scaleType="fitStart"
+                android:translationY="100dp"
+                android:text="PANEER PULAO"
+                android:textColor="#777"
+                android:gravity="center|top"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/imageButton10"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/beef_ravioli"
+                android:scaleType="fitStart"
+                android:translationY="140dp"
+                android:text="BEEF RAVIOLI"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:gravity="center|top"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/imageButton11"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/sirloin_steak"
+                android:scaleType="fitStart"
+                android:translationY="170dp"
+                android:text="SIRLOIN STEAK"
+                android:textColor="#777"
+                android:gravity="center|top"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/imageButton12"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/vension_burger"
+                android:scaleType="fitStart"
+                android:translationY="200dp"
+                android:text="VENSION BURGER"
+                android:textColor="#777"
+                android:gravity="center|top"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"/>
+
+            <Button
+                android:id="@+id/imageButton13"
+                android:layout_width="410dp"
+                android:layout_height="290dp"
+                android:background="@drawable/fish_fillet"
+                android:scaleType="fitStart"
+                android:translationY="230dp"
+                android:text="FISH FILLETS"
+                android:gravity="center|top"
+                android:textColor="#777"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"/>
+            <View
+                android:id="@+id/divider17"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

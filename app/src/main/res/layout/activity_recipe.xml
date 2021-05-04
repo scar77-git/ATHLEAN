@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ititle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".RecipeActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:capitalize="characters"
+        android:clickable="false"
+        android:editable="false"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="#2adb80"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:translationY="40dp" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:translationY="150dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:translationY="250dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/intitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:editable="false"
+                android:text="INGREDIENTS:"
+                android:textColor="#2bda80"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ingredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:fontFamily="serif"
+                android:gravity="left"
+                android:lineSpacingExtra="15dp"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationY="10dp" />
+
+            <TextView
+                android:id="@+id/rtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:editable="false"
+                android:text="RECIPE:"
+                android:textColor="#2bda80"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:translationY="25dp" />
+
+            <TextView
+                android:id="@+id/recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:background="#000"
+                android:clickable="false"
+                android:fontFamily="@font/roboto_slab"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:translationY="50dp" />
+
+            <View
+                android:id="@+id/divider17"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="?android:attr/listDivider"
+                android:translationY="100dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
