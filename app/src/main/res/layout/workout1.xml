@@ -23,7 +23,7 @@
             android:layout_marginLeft="9dp"
             android:layout_marginTop="125dp"
             android:gravity="center_horizontal"
-            android:text="CHOOSE YOUR WORKOUT"
+            android:text="CHOOSE A WORKOUT"
             android:textColor="#3bda80"
             android:textSize="32dp"
             android:textStyle="bold" />
@@ -51,8 +51,8 @@
 
         <ImageView
             android:id="@+id/imageButton4"
-            android:layout_width="52dp"
-            android:layout_height="52dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="-10dp"
             android:layout_marginBottom="59dp"
             android:alpha="10"
@@ -65,7 +65,7 @@
             app:layout_constraintBottom_toTopOf="@+id/imageButton3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/profile" />
+            app:srcCompat="@drawable/pf1" />
 
 
     </RelativeLayout>

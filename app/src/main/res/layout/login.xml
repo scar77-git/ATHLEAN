@@ -1,105 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_bg"
-    tools:context=".MainActivity">
-    <TextView
+    tools:context=".login1">
 
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="170dp"
-        android:layout_marginTop="130dp"
-        android:text="LOGIN"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:gravity="center_horizontal" />
-
-    <EditText
-
-        android:id="@+id/email"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="200dp"
-        android:drawablePadding="10dp"
-        android:hint="Email"
-        android:textColorHint="@color/white"
-        android:textColor="@color/white"
-        android:drawableLeft="@drawable/email"
-        android:backgroundTint="@android:color/white"
-        android:inputType="textEmailAddress"
-        android:paddingBottom="20dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical">
 
 
-    </EditText>
+
+            <EditText
+                android:id="@+id/email_edt_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:hint="email"/>
 
 
-    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
 
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/email"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginRight="20dp"
-        android:drawablePadding="10dp"
-        android:paddingBottom="20dp"
-        android:hint="Password"
-        android:textColor="@color/white"
-        android:drawableLeft="@drawable/password"
-        android:textColorHint="@color/white"
-        android:backgroundTint="@android:color/white"
-        android:inputType="textPassword" />
-
-    <Button
-        android:id="@+id/forgot_password"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/password"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="25dp"
-        android:text="Not Registered?"
-        android:background="@drawable/ellipse"
-        android:textColor="@color/white"
-        android:textSize="15dp" />
-
-    <Button
-
-        android:id="@+id/login_button"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/forgot_password"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Log In"
-        android:textColor="#FFFFFF"
-        android:textSize="20dp"
-        android:textAllCaps="false"
-        android:background="@drawable/ellipse"
-        android:enabled="true"/>
-
-    <RadioButton
-
-        android:id="@+id/remember_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/login_button"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Remember Password"
-        android:textColor="@color/white"
-        android:buttonTint="@color/white"
-        android:textSize="12dp"
-        android:checked="false"/>
+            <EditText
+                android:id="@+id/pass_edt_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:hint="password"/>
 
 
-</RelativeLayout>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:text="login"/>
+
+        <TextView
+            android:id="@+id/reset_pass_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            android:layout_gravity="center"
+            android:clickable="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/tvText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="OR"
+                android:textColor="#000000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toLeftOf="@id/tvText"
+                android:background="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/tvText"
+                android:background="@color/white" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="Register" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

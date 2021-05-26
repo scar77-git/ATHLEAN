@@ -7,11 +7,14 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import android.view.WindowManager
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-
+import com.google.firebase.auth.FirebaseAuth
 @Suppress("DEPRECATION")
 class splash : AppCompatActivity() {
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
+    private lateinit var auth: FirebaseAuth
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,9 +31,20 @@ class splash : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
         actionBar?.hide();
+        auth = FirebaseAuth.getInstance()
+        if(auth.currentUser == null){
+            Handler().postDelayed({val intent = Intent(this, login1::class.java)
+                startActivity(intent)
+                finish()},3000)
+        }else{
+            Toast.makeText(this, "Already logged in", Toast.LENGTH_LONG).show()
+            Handler().postDelayed({val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+                finish()},3000)
+        }
         // we used the postDelayed(Runnable, time) method
         // to send a message with a delayed time.
-        val pref = getSharedPreferences("ActivityPREF", Context.MODE_PRIVATE)
+        /*val pref = getSharedPreferences("ActivityPREF", Context.MODE_PRIVATE)
         if (pref.getBoolean("activity_executed", true)) {
             Handler().postDelayed({val intent = Intent(this, login1::class.java)
                 startActivity(intent)
@@ -39,6 +53,6 @@ class splash : AppCompatActivity() {
             Handler().postDelayed({val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
                 finish()},3000)
-        }
+        }*/
     }
 }

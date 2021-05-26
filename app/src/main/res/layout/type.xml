@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="0dp"
+    android:background="@drawable/bgx"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="#000"
+        android:gravity="center">
+
+        <TextView
+
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="125dp"
+            android:gravity="center_horizontal"
+            android:text="WORKOUT TYPES"
+            android:textColor="#3bda80"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider100"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="?android:attr/listDivider"
+            android:foreground="#3bda80"
+            android:translationY="100dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="6dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/logo_splash" />
+
+        <ImageView
+            android:id="@+id/imageButton4"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="59dp"
+            android:alpha="10"
+            android:background="#000"
+            android:backgroundTint="#000"
+            android:scaleType="fitXY"
+            android:translationX="340dp"
+            android:translationY="35dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pf1" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="-17dp">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/ss"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_centerInParent="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/slow_start"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="350dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:foreground="#3bda80"
+                android:translationX="25dp"
+                android:translationY="25dp" />
+
+            <Button
+                android:id="@+id/expe"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ss"
+                android:layout_centerInParent="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/experienced"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="350dp"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider"
+                android:foreground="#3bda80"
+                android:translationX="25dp"
+                android:translationY="25dp" />
+
+            <Button
+                android:id="@+id/exp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/expe"
+                android:layout_centerInParent="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/expert"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

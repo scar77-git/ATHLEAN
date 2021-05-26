@@ -1,17 +1,30 @@
 package com.example.testapp
+
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.system.Os.getuid
 import android.view.View
 import android.widget.Button
-import android.widget.ImageButton
 import android.widget.ImageView
+import android.widget.TextView
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.workout1.*
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.*
+
 
 class workout : AppCompatActivity() {
+    var firebaseDatabase: FirebaseDatabase? = null
+
+    // creating a variable for our
+    // Database Reference for Firebase.
+    var databaseReference: DatabaseReference? = null
+
+    // variable for Text view.
+    private var retriveTV: TextView? = null
     @SuppressLint("WrongViewCast")
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +34,34 @@ class workout : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
         actionBar?.hide();
+        retriveTV = findViewById(R.id.title);
+        firebaseDatabase = FirebaseDatabase.getInstance();
+
+        // below line is used to get
+        // reference for our database.
+        databaseReference = firebaseDatabase!!.getReference("user");
+        val uid :String= FirebaseAuth.getInstance().getCurrentUser().getUid()
+       /* databaseReference!!.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                // this method is call to get the realtime
+                // updates in the data.
+                // this method is called when the data is
+                // changed in our Firebase console.
+                // below line is for getting the data from
+                // snapshot of our database.
+                val value = snapshot.child(uid).child("flag").getValue(String::class.java)!!
+
+                // after getting the value we are setting
+                // our value to our text view in below line.
+                retriveTV?.setText(value)
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                // calling on cancelled method when we receive
+                // any error or we are not able to get the data.
+                Toast.makeText(this@workout, "Fail to get data.", Toast.LENGTH_SHORT).show()
+            }
+        })*/
         val hbutton = findViewById<ImageView>(R.id.imageView3)
         hbutton.setOnClickListener(){
             val intent  = Intent(this, MainActivity::class.java)

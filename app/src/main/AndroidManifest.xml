@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.testapp">
-
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -12,64 +11,60 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:screenOrientation="portrait"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecipeActivity"></activity>
-        <activity
-            android:name=".Dinner"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Snacks"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Lunch"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Breakfast"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MealActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".login1"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".registration"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".diet"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".workout"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activity1"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".chest1"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".abs1"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".shoulder1"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".leg1"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activity2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".fit"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".arm"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activity3"
-            android:screenOrientation="portrait" />
+
+
+        <activity android:name=".Dinner"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Snacks"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Lunch"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Breakfast"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MealActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".login1"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".registration"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".diet"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".workout"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".chest1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".abs1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".shoulder1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".leg1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".fit"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".arm"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".video1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".wk"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".weeks1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".testing"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".pulse1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".timer1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".info1"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".splash"
             android:theme="@style/SplashTheme">
