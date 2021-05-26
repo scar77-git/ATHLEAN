@@ -23,6 +23,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".MealActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".RecipeActivity"
+            android:screenOrientation="portrait"/>
         <activity android:name=".login1"
                   android:screenOrientation="portrait"/>
         <activity android:name=".MainActivity"

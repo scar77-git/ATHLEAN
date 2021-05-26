@@ -33,25 +33,25 @@ class RecipeActivity : AppCompatActivity() {
         val ingredients = findViewById<TextView>(R.id.ingredients)
         lateinit var database: DatabaseReference
         database = Firebase.database.reference
-        database.child("Diet").child(recicode.toString()).child("title").get().addOnSuccessListener {
+        database.child("diet").child(recicode.toString()).child("title").get().addOnSuccessListener {
             Log.i("firebase", "Got value ${it.value}")
             texttitle.text = it.value.toString()
         }.addOnFailureListener{
             Log.e("firebase", "Error getting data", it)
         }
-        database.child("Diet").child(recicode.toString()).child("desc").get().addOnSuccessListener {
+        database.child("diet").child(recicode.toString()).child("desc").get().addOnSuccessListener {
             Log.i("firebase", "Got value ${it.value}")
             recidesc.text = it.value.toString()
         }.addOnFailureListener{
             Log.e("firebase", "Error getting data", it)
         }
-        database.child("Diet").child(recicode.toString()).child("ingredients").get().addOnSuccessListener {
+        database.child("diet").child(recicode.toString()).child("ingredients").get().addOnSuccessListener {
             Log.i("firebase", "Got value ${it.value}")
             ingredients.text = it.value.toString()
         }.addOnFailureListener{
             Log.e("firebase", "Error getting data", it)
         }
-        database.child("Diet").child(recicode.toString()).child("recipe").get().addOnSuccessListener {
+        database.child("diet").child(recicode.toString()).child("recipe").get().addOnSuccessListener {
             Log.i("firebase", "Got value ${it.value}")
             recipe.text = it.value.toString()
         }.addOnFailureListener{

@@ -1,0 +1,215 @@
+{
+  "diet" : {
+    "Aloo Paratha" : {
+      "desc" : " A spicy Indian flatbread filled with mashed potato and herbs.",
+      "ingredients" : "• 2 cups Wheat Flour \n• Salt \n• Oil \n• Water \n• 3 Potatoes \n• ¾ tsp Ginger \n• 2 tsp Coriander leaves \n• ½ Garam Masala \n• ½ tsp Chili Powder \n• ½ tsp Chaat Masala \n• 1 tsp Kasuri Methi \n• ¼ tsp Ajwain \n• ½ Fennel",
+      "recipe" : "Boil potatoes until tender. While the potatoes boil, in a large bowl add flour, 1 tsp oil, salt and water and knead to form a smooth non-sticky dough. Cover and let rest. \n\nPeel the potatoes and mash them well. Add ginger, green chilies, coriander leaves, salt, red chili powder, garam masala, coriander powder, kasuri methi and chaat masala. Mix well and divide stuffing to 8 parts. \n\nNow divide the dough into 8 balls and flatten them. Place 1 part of the stuffing and wrap it up. Then flatten them again. \n\nHeat a pan on medium flame and spray some oil. Place the aloo paratha and cook on each side for 3-4 minutes. Repeat for all other portions. \n\nServe with curd or pickle.",
+      "title" : "Aloo Paratha"
+    },
+    "Baked Salmon" : {
+      "desc" : "An easy, excellent recipe to perfectly bake salmon everytime.",
+      "ingredients" : "• Salmon Fillet \n• 2 tbsp Parsley \n• 2 tbsp Lemon Juice \n• 3 Garlic Cloves \n• 2 tbsp Olive Oil \n• Salt & Pepper \n• Lemon wedges \n• ½ tbsp Dijon Mustard",
+      "recipe" : "Preheat oven to 450˚F. Line a baking sheet and arrange salmon skin side down. \n\nIn a small bowl, combine parsley, garlic, oil, lemon juice, dijon and salt and pepper. Generously spread the marinade over the top and sides of the salmon and place a lemon wedge on each slice of salmon. \n\nBake for 12-15 minutes or until just cooked.",
+      "title" : "Baked Salmon"
+    },
+    "Banana Shake" : {
+      "desc" : "A delicious and nutritious drink to kickstart your day.",
+      "ingredients" : "• 2 Large Bananas \n• 2 Dates \n• ½ tsp Cinnamon \n• Ice Cubes \n• 1½ Cup Milk \n• Almonds",
+      "recipe" : "Add all the dry ingredients and sugar (optional) to a jar and blend until creamy. \n\nThen pour the milk and blend until smooth. \n\nAdd your favourite toppings and serve cold.",
+      "title" : "Banana Shake"
+    },
+    "Beef Ravioli" : {
+      "desc" : "Italian Cuisine at its finest",
+      "ingredients" : "For Ravioli Filling:\n• 2 Eggs \n• Chooped Parsley \n• 1 cup Ground Beef \n• 1 cup Parmesan Cheese \n• 1 tbsp Olive Oil \n• Salt and Pepper \n• 1 cup Baby Spinach chopped. \nFor Dough:\n• 3 cups All-purpose-flour \n• 2 Eggs \n• 1 tbsp Olive Oil \n Salt",
+      "recipe" : "In a skillet, fry the meat in olive oil until well browned. Cool the meat and in a large bowl add it along with spinach, parsley and rest of the ingredients and mix until fine and refrigerate.\n\n In another bowl, sift flour and salt. Gradually add eggs and oil and knead the dough until smooth. Add water if needed.\n\n Cover the dough and let it rest for 30 minutes. \n\nBring a large pot of salted water to boil. Add the ravioli in batches of 10-12. (This recipe makes 100 raviolis).\n\nCook for 3-4 minutes and remove with a slotted spoon. \n\nServe with your favourite sauce and spices.",
+      "title" : "Beef Ravioli"
+    },
+    "Butter Chicken Masala" : {
+      "desc" : "Tender and juicy chicken in a spiced yogurt marinade.",
+      "ingredients" : "For the chicken marinade:\n• 800g boneless chicken \n• ½ cup Yogurt\n•2 tbsp Ginger Garlic Paste\n• 2 tsp Garam Masala\n• 1 tsp Turmeric\n• 1 tsp Cumin\n• Salt and Pepper\nFor the sauce:\n• 2 tbsp Olive Oil\n• 2 tbsp Ghee or Oil\n• 1 sliced Onion\n• 1½ Minced Garlic\n• 1 tbsp Minced Ginger\n• 1½ tsp Cumin\n• 1½ tsp Garam Masala\n• 1 cup Tomato Puree\n• 1 tsp Red Chili Powder\n• Salt \n• 1 cup Heavy Cream\n• 1 tbsp Sugar\n• ½ tsp Kasoori Methi",
+      "recipe" : "In a bowl, combine all the ingredients for the marinade and marinate the chicken for atleast 30 minutes.\n\nHeat oil in a skillet and add chicken pieces in batches and fry until browned for 3 minutes on each side.\n\nHeat butter in same pan and fry the onions and then add all the spices and cook until fragrant. Add the crushed tomatoes, chili powder and salt. Simmer for 10-15 minutes.\n\nRemove from heat, and blend all the mixture in a blender and and pour the pureed sauce back int the pan.\n\n Stir in the cream, sugar and crushed kasoori methi and then add the chicken pieces and cook for 10 minutes or until sauce is thick and bubbling. \n\nServe with rice or naan.",
+      "title" : "Butter Chicken Masala"
+    },
+    "Chicken Breast Pan" : {
+      "desc" : "A very moist favourful chcicken breast recipe that is fast, easy and delicious.",
+      "ingredients" : "• Chicken Breasts \n• Salt and Pepper \n• 1 tbsp chopped Herbs \n• 2 tbsp Olive Oil \n• ¼ cup Apple Cider Vinegar \n• 4 tbsp Butter \n• 1 tbsp Chicken Broth",
+      "recipe" : "Season chicken with salt and pepper.\n\nHeat olive oil in a large skillet over medium heat. Place the chicken breasts in the pan and sprinkle fresh herbs. Cook for 5-6 inutes then flip the chicken.\n\nAdd vinegar and butter to pan with chicken and shake gently until butter melts and then cook for 3 more minutes. Add broth if required.\n\nServe hot with lemon wedges.",
+      "title" : "Chicken Breast Pan Roasted"
+    },
+    "Chickpea Salad" : {
+      "desc" : " A delicious and light snack to keep you full and fresh at night.",
+      "ingredients" : "• 1 Avocado \n• ½ lemon \n• 1 cup Chickpeas \n• ¼ cup Red Onion Sliced \n• 2 cups grape Tomato sliced \n• 1 diced Cucumber \n• ½ cup Parsley",
+      "recipe" : "Cut avocado into cubes and place in bowl. Squeeze lemon juice and gently stri to combine. Add the remaining ingredients and gently toss to combine. \n\nRefrigerate for atleast 1 hour before consuming.\n\nENJOY !!!",
+      "title" : "Chickpea Salad"
+    },
+    "Eggplant Chips" : {
+      "desc" : "A tasty snack to munch on during your breaks.",
+      "ingredients" : "• Olive oil \n• 2 Eggplants \n• Salt and Pepper \n• ¼ Garlic Powder",
+      "recipe" : "Preheat oven to 190 °C. Line 2 baking sheets and spray olive oil over it. \n\nUsing a sharp knife thinkly slice the eggplants and arrange them in a single layer on the baking sheet. Season with the spices and bake for 15 minutes. Remove, flip, spray some more oil and bake for 10-15 minutes. \n\nMake sure they don't burn.",
+      "title" : "Eggplant Chips"
+    },
+    "Fauxtato Chips" : {
+      "desc" : "A crispy snack even for those on a keto diet.",
+      "ingredients" : "• 1 bunch Radishes \n• 1 tbsp Vegetable Oil \n• ½ tsp Garlic Powder \n• Salt and Pepper",
+      "recipe" : "Preheat oven to 220°C. Line two baking sheets and spray some oil over it. \n\nUsing a very sharp knife thinly slice the radishes and place the evenly on the baking sheet in a single layer and season it. Bake until the chips anre slightly golden and crispy 30-45 minutes. Serve with ranch dipping.",
+      "title" : "Fauxtato Chips"
+    },
+    "Fruit Bowl" : {
+      "desc" : "Healthy chopped fruits in a bowl. What can be more refreshing than this?",
+      "ingredients" : "• 2 Strawberries chopped \n• ¼ cup Green Grapes \n• ¼ cup Coarsely Chopped range Slice \n• 1 sliced Banana \n• 2 tbsp Pomegranate Kernels \n• 1 Kiwi sliced \n• 1 chopped Apple \n• ¼ cup Red Grapes",
+      "recipe" : "Toss all the fruits in a bowl and combine well. Relish.",
+      "title" : "Fruit Bowl"
+    },
+    "Greek Fruit Bowl" : {
+      "desc" : "You just can't ignore this healthy snack.",
+      "ingredients" : "• ¾ cup Greek Yogurt \n• ¼ cup Strawberries \n• ¼ cup Blueberries \n• 1 sliced Kiwi",
+      "recipe" : "Flavoured greek yodurt tastes better. Top with the fruits & honey and relish.",
+      "title" : "Greek Fruit Bowl"
+    },
+    "Kachori" : {
+      "desc" : "A flaky and crisp Indian recipe, an ideal evening snack.",
+      "ingredients" : "• ½ cup Moong Dal \n• Water \n• 1 tsp Ghee \n• 1 tsp Fennel \n• 1 tsp Cumin \n• 1 tsp Hing \n• ¼ tsp Turmeric \n• 1 tsp Chilli \n• 1 tsp Coriander Powder \n• 1 tsp Garam Masala \n•  1 tsp Mango Powder \n• ¼ tsp Ginger Powder \n• ¼ cup Besan \n• Salt \n• 2½ cup Maida",
+      "recipe" : "In a large bowl soak the moong dal for about 2 hours.\n\nDrain off water, add to a grinder and grind until coarse. \n\nIn a pan heat ghee, fennel, cumin and hing. Saute until aromatic. Futher add turmeric, chilli, coriander, garam masala, mango powder, ginger powder and salt. Saute for 3 minutes and then add besan and roast on low flame until aromatic. Add in the dal paste and cook for 5 minutes and then set aside.\n\n In another bowl mix maida, water, ghee and salt. Mix and knead a smooth dough and let it rest for 30 minutes. Then make small balls (approx 7) and flatten them. Make 7 balls of the stuffing and place it in the center of the dough and wrap them up. \n\nIn a pan heat oil over medium flame and put the kachoris in. Deep fry for 3-4 minutes. \n\nServe with tamarind chutney.",
+      "title" : "Kachori"
+    },
+    "Kung Pao Chicken" : {
+      "desc" : "A delicious Chinese twist to end your day.",
+      "ingredients" : "• 1 lb Boneless Chicken \n• 2 tbsp White Wine \n• 2 tbsp Soy Sauce \n• 2 tbsp Sesame Oil \n• 2 tbsp Cornstarch \n• 1 tbsp Hot Chili Paste \n• 1 tsp White Vinegar \n• 2 tsp Brown Sugar \n• 4 chopped Green Onions \n• 1 tbsp Garlic",
+      "recipe" : "Combine 1 tablespoon each of wine, soy sauce, oil and cornstarch and mix together. Marinate the chicken with this mixture and place in refrigerator for 20 minutes. \n\n In a small bowl mix all the remaining ingredients and transfer it to a skillet and heat slowly until aromatic. Meanwhile, remove chicken from marinade and saute in another skillet until meat is white and juicy. \n\nWhen the sauce is aromatic, add sauteed chicken to it and let it simmer together until sauce thickens. Your dinner is ready.",
+      "title" : "Kung Pao Chicken"
+    },
+    "Mighty Porridge" : {
+      "desc" : "Porridge is incredibly versatile and this delicious blend of oats, blueberries and bananas is the perfect way to re-ignite your passion for porridge.",
+      "ingredients" : "• 1 cup Oats \n• 2 cups Milk \n• 1 Banana \n• 1 tsp Vanilla Powder \n• Blueberries",
+      "recipe" : "Tip the oats into a saucepan, add the milk, blueberries and sliced banana and gently cook on medium heat for 6 minutes or until the berries soften. \n\nWhile the porridge is cooking, ready your favourite toppings.\n\n Server with maple syrup.",
+      "title" : "Mighty Porridge"
+    },
+    "Nuts n' Fruits Power Bowl" : {
+      "desc" : "A perfect dish for busy weekday mornings and keep you going.",
+      "ingredients" : "• 2 cups Cooked Quinoa \n• 1 cup Almond Milk \n• 2 tbsp Chopped Nuts \n• 2 tbsp Seeds of your choice \n• 2 tbsp Dried Fruits \n• 2 tsp Cinnamon \n• Maple Syrup \n• Fresh Berries",
+      "recipe" : "Place the quinoa, almond milk, nuts, seeds, fruits and cinnamon in a medium-sized pot over medium heat. Cook until the grains soften and fruit plumps.\n\n Top with a drizzle of maple syrup and fresh berries.",
+      "title" : "Nuts n' Fruits Power Bowl"
+    },
+    "Oatmeal" : {
+      "desc" : "An easy and healthy customizable breakfast to meet your everyday needs.",
+      "ingredients" : "• ½ cup Rolled Oats \n• ½ cup Milk \n• ½ cup Water \n• Pinch of Salt \n• Sliced Strawberries \n• 2 tbsp Heavy Cream \n• 2 tbsp Honey \n• Vanilla Extract",
+      "recipe" : "Place all the ingredients in a microwave safe bow and stir together. \n\nHeat in the microwave on high for 2 minutes. Then add 15s increments if necessary until the oats softens. \n\nAdd the toppings and cream and serve cool.",
+      "title" : "Oatmeal"
+    },
+    "Paneer Pulao" : {
+      "desc" : "A protein rich and aromatic meal to satisfy your taste buds.",
+      "ingredients" : "• 1½ cup Basmati Rice \n• 2½ cups Water \n• ½ tsp Salt \n• 2 tbsp Oil \n• 1 large Onion sliced \n• 2 Green Chillies \n• ½ cup Green Peas \n• ½ cup Carrots \n• 1 tbsp Ginger Garlic Paste \n• Coriander Leaves \n• Mint Leaves \n• 1 Bay Leaf \n• Cumin Seeds \n• Green Cardamoms \n• Cloves \n• Cinnamon",
+      "recipe" : "Heat oil or ghee in a pot and add all the whole spices. When they begin to sizzle, add sliced onions and fry until golden then add ginger garlic paste and veggies and saute for 2 minutes. Add coriander and mint leaces and fry until aromatic.\n\n Pour water and salt in a bowl and bring to a boil. Add soaked and drained rice and presure cook on medium flame until cooked. \n\n Fry paneer in a pan until golden and mix it with the rice. \n\nServe hot with a salad.",
+      "title" : "Paneer Pulao"
+    },
+    "Protein Shake" : {
+      "desc" : "A protein rich drink to keep you full until lunch.",
+      "ingredients" : "• Ice Cubes \n• 1 cup Milk \n• 1 Banana \n• 1 scoop Chocolate Protein Powder \n• 2 tbsp Peanut Butter \n• 1 tbsp Honey \n• 1 tsp unsweetened Cocoa Powder",
+      "recipe" : "Blend all the ingredients in a jar until smooth and creamy. Enjoy!!!",
+      "title" : "Protein Shake"
+    },
+    "Quinoa Porridge" : {
+      "desc" : "An easy-to-make porridge recipe, which is extremely tasty and highly nutritious with just a few ingredients.",
+      "ingredients" : "• ¾ cup Quinoa \n• 2 cups Almond Milk  \n• 2 tbsp Vanilla Extract \n• ¾ tsp Cinnamon \n• ¼ tsp Nutmeg Powder",
+      "recipe" : "Place a pan over medium heat and boil the almond milk. Then add in the quinoa flakes. Stir constantly to avoid lumps.\n\nOnce it comes to another boil add the cinnamon powder, vanilla extract and nutmeg powder and mix well. Simmer and cook for 5 minutes.\n\nLet it cool and serve warm with apple slices and blueberries.",
+      "title" : "Quinoa Porridge"
+    },
+    "Rajma Masala" : {
+      "desc" : "A delicious Indian curry made with red kidney beans.",
+      "ingredients" : "• 4 tbsp Oil \n• 1½ tsp Ginger Garlic Paste \n• 1¼ cup cubed Onion \n• 1 cup fine chopped Tomato \n• ¾ cup Rajma \n• 2 cups Water \n• 1 tsp Ginger \n• 1 green Chili \n• Salt \n• 2 tbsp Coriander Leaves \n• 2 tbsp Cream \n• 1 Bay Leaf \n• ¼ tsp Turmeric \n• 1 tsp Red Chili Powder \n• ¾ tsp Kasuri Methi \n• 1 tsp Garam Masala \n• ½ tsp Cumin Seeds",
+      "recipe" : "Rinse and soak rajma for 8 hours in lot water. Then rinse well, add 2 cups of water nd cook until soft.\n\nPuree the onions and tomatoes in a jar. Heat a pan with oil and saute cumin and bay leaf until they sizzle. Turn the flame to low, saute ginger garlic paste, add the puree, spice powders and salt. Ensure at each step the mixture is aromatic and not raw. \n\nThen add in the cooked rajma along with some water. Mix in the ginger and green chili and cover and let simmer for 10-15 minutes.\n\n Sprinkle Kasuri Methi, add in the cream and serve hot with rice.",
+      "title" : "Rajma Masala"
+    },
+    "Sirloin Steak" : {
+      "desc" : "A delicous steak to keep you full that's juicy, moist and tender.",
+      "ingredients" : "• Sriloin Steak \n• 1 tbsp Olive Oil \n• Salt and Pepper \n• 2 tbsp Mesquite seasoning (optional) \n• 3 tbsp Garlic Herb Butter",
+      "recipe" : "Pat dry sthe steaks and season it with salt and pepper and mesquite seasoning. Cook the steak for 5-8 minutes on each side or to your desired doneness in a skillet or grill over medium heat.\n\nAllow steaks to rest and top with garlic herb butter and serve.",
+      "title" : "Sirloin Steak"
+    },
+    "Sweet Potato Chips" : {
+      "desc" : "A healthier and tastier alternative to the greasy regular potato chips.",
+      "ingredients" : "• 1 large Sweet Potato \n• ½ tsp Pepper \n• 4 tbsp Olive Oil \n• 1 tsp dried Thyme \n• Salt and Pepper",
+      "recipe" : " Preheat oven to 200°C. Line 2 baking sheets.\n\nUsing a sharp knife thinly slice the sweet potato. Put it in a medium bowl and add in the spices and oil and toss well until it is well coated.\n\nArrange the slices on a baking sheet without overlapping and bake for 25-30 minutes flipping halfway. Let it cool and Enjoy.",
+      "title" : "Sweet Potato Chips"
+    },
+    "Tofu Scramble" : {
+      "desc" : "7 ingredients, 10 minutes, 1 pan that's all that is required for your dinner tonight.",
+      "ingredients" : "• Olive Oil \n• Tofu \n• 2 tbsp Nutritional Yeast \n• Salt & Pepper \n• ¼ tsp Turmeric \n• ¼ tsp Garlic Powder \n• 2 tbsp Non-dairy Milk",
+      "recipe" : "Heat the oil in a pan over medium heat. Mash the block of tofu right in the pan and cook stirring frequently for 3-4 minutes until the water is mostly gone. \n\n Now add the nutritional yeast, salt, turmeric and garlic and powder and stir constantly form 5 minutes. Pour the milk and stir to mix. \n\nServe immediately with sliced avocado, hot sauce or toast.",
+      "title" : "Tofu Scramble"
+    },
+    "Tuna Sandwich" : {
+      "desc" : "This tuna sandwich will change everything you knew about tuna sandwiches.",
+      "ingredients" : "• 1 canned Tuna\n• ½ cup Cottage Cheese\n• 2 tbsp Mayonnaise\n• 1/4 cup Onion, finely chopped\n• 1 Celery Stalk, finely chopped\n• 1 tbsp Lemon Juice\n• 2 tbsp chopped Parsley\n• 1 tsp Dijon mustard\n• 2 slices toasted bread",
+      "recipe" : "In a medium bowl toss together all the ingredients until they are well combined. \n\nPlace the mixture between the toasted bread slices with tomato and lettuce if you wish.",
+      "title" : "Tuna Sandwich"
+    },
+    "Turkey Sandwich" : {
+      "desc" : "A sandwich recipe that never gets old. Perfect as a quick meal at home or on the go.",
+      "ingredients" : "• 2 Slices of Bread \n• Turkey Slices \n• 2 tbsp Mayonnaise \n• 2 slices Swiss Cheese \n• Lettuce \n• Tomatoes \n• Cucumber \n• Salt and Pepper",
+      "recipe" : "Wash and slice all the vegetables.\n\nToast the bread and spread mayonnaise on one side and cheese on the other. Place the veggies and turkey over the cheese. \n\nSprinkle with salt and pepper and insert wooden pics on the opposite sides to hold the sandwich. Enjoy!!!",
+      "title" : "Turkey Sandwich"
+    },
+    "Vension Burger" : {
+      "desc" : "A delicious and healthy twist to the regular hamburgers.",
+      "ingredients" : "• 1½ cup Ground Vension \n• Salt and Pepper \n• 2 Egg yolks \n• Worcestershire Sauce \n• 1 tbsp Olive Oil \n• Cheese Slice \n• Toasted Burger Buns \n• Ground Mustard \n• Mayonnaise",
+      "recipe" : "Build a hot fire in a grill or heat a skillet over high flame. In a bowl, combine wthe vension, salt, pepper, egg, sauce and mix until wet and sticky. Make thick patties of your desired thickness. Brush the grill rack or skillet with a little oil and cook the patties until well browned, about 5 minutes on each side.\n\n Serve the burgers on buns with your desired combination of mustard, mayonnaise and pickles.",
+      "title" : "Vension Burger"
+    },
+    "Wholegrain Pancakes" : {
+      "desc" : "What's more fulfilling than pancakes for breakfast.",
+      "ingredients" : "• 1 cup Wheat Flour \n• ½ cup Rolled Oats \n• 3 tbsp Flaxseeds \n• 1 tsp Baking Powder \n• 1 tsp Baking Soda \n• 3 tbsp Brown Sugar \n• 1 Egg \n• 2 cups Buttermilk",
+      "recipe" : "In a large bowl, stir in the wheat flour, oats, flaxseed meal, sugar, baking soda and baking powder. Pour in the buttermilk and egg an stir until smooth. \n\nHeat a large skillet over medium heat. Coat with cooking spray and drop the batter by alrge spoonfulls. Cook until bubbles from and the edges are dry. Flip and cook until the other side is browned too. \n\nServe with cream or maple syrup.",
+      "title" : "Wholegrain Pancakes"
+    },
+    "Zucchini Sushi" : {
+      "desc" : "A fresher and healthier alternative to regular sushi.",
+      "ingredients" : "• Zucchini \n• ¼ cup Cream Cheese \n• 1tsp Hot Sauce \n• Crab Meat \n• Carrot and Cucumber (matchstick cut) \n• 1 diced Avocado",
+      "recipe" : "Slice the zucchini into thin flat strips using a vegetable peeler and line on a paper towel.\n\nIn a medium bowl, combine cream cheese, hot sauce and limejuice. Layer the mixture thinly on the zucchini strips. Then layer on top with crab meant and then carrot, cucumber and avocado. \n\nTightly roll the strips. Sprinkle some sesame seeds and serve.",
+      "title" : "Zucchini Sushi"
+    },
+    "fish fillets" : {
+      "desc" : "Delicious fish roasted in golden butter. Simply Amazing.",
+      "ingredients" : "• Fish Fillets \n• Salt and Pepper \n• 3 tbsp Canola Oil \n• 2 tbsp Butter \n• 2 sprigs Thyme \n• 1 tbsp Parsley chopped \n• Lemon Wedges",
+      "recipe" : "Pat fillets dry and season with salt and pepper.\n\nHeat a skillet over high heat and add the oil. Place the fillets (skin side down if applicable) and press down gently with a spatula for 20 seconds.\n\nLower heat to medium and let sizzle until fish is golden and carmelized.\n\n Flip the fillets and add butter and thyme. Baste the fish with pooled butter. Cook or 2-3 minutes.\n\nServe immediately with chopped parsley and lemon wedges.",
+      "title" : "Fish Fillets"
+    }
+  },
+  "image" : {
+    "crunches" : "https://firebasestorage.googleapis.com/v0/b/athlean-ef400.appspot.com/o/abs%2Fcrunches.JPG?alt=media&token=8a5f8c90-7e71-410e-a1ed-dcb0daafaed0",
+    "decpushups" : "https://firebasestorage.googleapis.com/v0/b/athlean-ef400.appspot.com/o/chest%20images%2Fdecpsh1.JPG?alt=media&token=61442024-dd87-44e3-a4ce-d89d1dc7aff8",
+    "fdcp" : "https://firebasestorage.googleapis.com/v0/b/athlean-ef400.appspot.com/o/chest%20images%2Ffldp.jpg?alt=media&token=e3d65ba9-2809-4afd-97ef-092c419094a1",
+    "legraises" : "https://firebasestorage.googleapis.com/v0/b/athlean-ef400.appspot.com/o/abs%2Fleg%20raises.jpg?alt=media&token=79e50aaf-eb10-46e0-9f75-1a687bd77ef6",
+    "planks" : "https://firebasestorage.googleapis.com/v0/b/athlean-ef400.appspot.com/o/abs%2Fplanks.png?alt=media&token=a9e9a8e6-183a-4ab0-a9fb-35cd79074b11",
+    "pushups" : "https://firebasestorage.googleapis.com/v0/b/athlean-ef400.appspot.com/o/chest%20images%2Fstdpsh.jpg?alt=media&token=279be1f3-a29c-4b1e-bd34-3cb63e47babd"
+  },
+  "user" : {
+    "J1DlSl7BLiUFUYVg8G2LAM4k7uh2" : {
+      "flag" : "true",
+      "st" : 3,
+      "times" : 20
+    },
+    "MqqN4FGIEfUnJH2nMtVfnn9gfI42" : {
+      "flag" : "true",
+      "st" : 2,
+      "times" : 15
+    },
+    "fLsmuvveVAWxC3Ri4yMN16TqGmi2" : {
+      "flag" : "true",
+      "st" : 4,
+      "times" : 25
+    }
+  },
+  "userinfo" : {
+    "J1DlSl7BLiUFUYVg8G2LAM4k7uh2" : {
+      "review" : "good",
+      "sets" : 2,
+      "time" : 5
+    },
+    "fLsmuvveVAWxC3Ri4yMN16TqGmi2" : {
+      "review" : "easy",
+      "sets" : 2,
+      "time" : 15
+    }
+  }
+}

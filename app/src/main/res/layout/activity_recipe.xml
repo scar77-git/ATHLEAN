@@ -94,7 +94,7 @@
                 android:fontFamily="@font/roboto_slab"
                 android:text=""
                 android:textColor="#fff"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 android:textStyle="normal"
                 android:translationY="50dp" />
 
